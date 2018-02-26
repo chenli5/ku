@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginService</servlet-name>
+    <servlet-class>service.loginService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>studentServlet</servlet-name>
+    <servlet-class>service.studentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stestServlet</servlet-name>
+    <servlet-class>service.stestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>techerServlet</servlet-name>
+    <servlet-class>service.techerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tgtServlet</servlet-name>
+    <servlet-class>service.tgtServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tgt2Servlet</servlet-name>
+    <servlet-class>service.tgt2Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminUserServlet</servlet-name>
+    <servlet-class>service.adminUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>iframe</servlet-name>
+    <servlet-class>service.iframe</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>teacherIframe</servlet-name>
+    <servlet-class>service.teacherIframe</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminTeacherSerlet</servlet-name>
+    <servlet-class>service.adminTeacherSerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminteacgerServlet</servlet-name>
+    <servlet-class>service.adminteacgerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminStudentServlet</servlet-name>
+    <servlet-class>service.adminStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminTuser</servlet-name>
+    <servlet-class>iframe.adminTuser</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminStudent</servlet-name>
+    <servlet-class>service.adminStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>welcomeS</servlet-name>
+    <servlet-class>welcome.welcomeS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addStudent</servlet-name>
+    <servlet-class>iframe.addStudent</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginService</servlet-name>
+    <url-pattern>/service/loginService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>studentServlet</servlet-name>
+    <url-pattern>/service/studentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stestServlet</servlet-name>
+    <url-pattern>/service/stestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>techerServlet</servlet-name>
+    <url-pattern>/service/techerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tgtServlet</servlet-name>
+    <url-pattern>/service/tgtServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tgt2Servlet</servlet-name>
+    <url-pattern>/service/tgt2Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminUserServlet</servlet-name>
+    <url-pattern>/service/adminUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>iframe</servlet-name>
+    <url-pattern>/service/iframe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacherIframe</servlet-name>
+    <url-pattern>/service/teacherIframe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminTeacherSerlet</servlet-name>
+    <url-pattern>/service/adminTeacherSerlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminteacgerServlet</servlet-name>
+    <url-pattern>/service/adminteacgerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminStudentServlet</servlet-name>
+    <url-pattern>/service/adminStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminTuser</servlet-name>
+    <url-pattern>/service/adminTuser</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>adminStudent</servlet-name>
+    <url-pattern>/service/adminStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>welcomeS</servlet-name>
+    <url-pattern>/welcome/welcomeS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addStudent</servlet-name>
+    <url-pattern>/iframe/addStudent</url-pattern>
+  </servlet-mapping>
+
+
+
+	
+  <welcome-file-list>
+    <welcome-file>welcome/welcomeS</welcome-file>
+  </welcome-file-list>
+</web-app>
